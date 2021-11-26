@@ -1,17 +1,17 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE"
+  binding: Camion
   inspection: DeclaresMethod:cargar_muebles!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Colchon
   inspection: DeclaresMethod:ser_cargado!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$MUEBLE"
+  binding: Sillon
   inspection: DeclaresMethod:ser_cargado!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Electrodomestico
   inspection: DeclaresMethod:ser_cargado!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE.cargar_muebles!"
+  binding: Camion.cargar_muebles!
   inspection: Uses:each

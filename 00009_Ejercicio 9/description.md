@@ -1,10 +1,10 @@
-Una empresa de mudanzas,cuenta con varios transportes, para realizarlas elige un `$CLASE`.
+Una empresa de mudanzas,cuenta con varios transportes, para realizarlas elige un `Camion`.
 
-Cada vez que un `$CLASE` carga un mueble, el mueble sufre una modificación:
+Cada vez que un `Camion` carga un mueble, el mueble sufre una modificación:
 
-* cada `Colchon` pierde $RESORTES_PERDIDOS resortes;
-* cada `$MUEBLE` sube su `nivel_de_polvo` en $NIVEL_POLVO;
+* cada `Colchon` pierde 4 resortes;
+* cada `Sillon` sube su `nivel_de_polvo` en 20;
 * a los `Electrodomestico`s no les pasa nada.
 
-> Definí los metodos `cargar_muebles!` en la clase `$CLASE`. También definí el método `ser_cargado!`
+> Definí los metodos `cargar_muebles!` en la clase `Camion`. También definí el método `ser_cargado!`
  en los muebles junto con su respectivo getter.
