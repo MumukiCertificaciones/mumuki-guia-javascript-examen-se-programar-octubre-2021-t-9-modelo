@@ -1,6 +1,6 @@
 check_head_position: false
 
-subject: $PROCEDIMIENTO
+subject: DibujarEscalera
 
 examples:
  - arguments:
