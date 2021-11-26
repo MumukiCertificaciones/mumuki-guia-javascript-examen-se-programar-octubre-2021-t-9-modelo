@@ -1,0 +1,8 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - concatenacionEsIgual
+  - esIgualConcatenacion
+  - laConcatenacionEsIgual
+  - esIgualLaConcatenacion

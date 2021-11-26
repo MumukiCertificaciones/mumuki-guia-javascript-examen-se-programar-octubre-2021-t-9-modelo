@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO"
+  inspection: Uses:map

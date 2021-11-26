@@ -1,0 +1,5 @@
+Copyright Gustavo Trucco, Rocío Gonzalez, Mayra Mosqueira and contributors
+
+This content consists of voluntary contributions made by many
+individuals. For exact contribution history, see its revision history
+available at https://github.com/mumukicertificaciones/mumuki-guia-javascript-examen-se-programar-octubre-2021-t-9-modelo and the AUTHORS.txt file.
