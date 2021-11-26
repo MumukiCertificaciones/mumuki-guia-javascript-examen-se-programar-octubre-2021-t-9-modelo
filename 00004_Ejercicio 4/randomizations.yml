@@ -1,23 +1,4 @@
 --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: one_of
-  value:
-  - saludar
-  - saludarA
-  - saludoCorrecto
-HORA_LIMITE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: range
-  value:
-  - 12
-  - 14
-HORA_MAYOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: expression
-  value:
-  - HORA_LIMITE + 1
-HORA_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: expression
-  value:
-  - HORA_LIMITE - 1
 STRING_BUEN_DIA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:

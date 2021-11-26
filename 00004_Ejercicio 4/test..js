@@ -1,21 +1,21 @@
-function transform(texto) {
+saludarfunction transform(texto) {
   return texto.toString().toLowerCase(texto).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 describe("", function() {
-  it("Saludar a Lu a las " + Number($HORA_MENOR) + " retorna '$STRING_BUEN_DIA Lu'", function() {
-    assert.equal(transform($FUNCION("Lu", Number($HORA_MENOR))), transform("$STRING_BUEN_DIA lu"));
+  it("Saludar a Lu a las 11 retorna 'Buenos días Lu'", function() {
+    assert.equal(transform(saludar("Lu", 11), transform("buenos días lu"));
   });
   
-  it("Saludar a Ale a las " + (Number($HORA_MENOR) - 1) + " retorna '$STRING_BUEN_DIA Ale'", function() {
-    assert.equal(transform($FUNCION("Ale", (Number($HORA_MENOR) - 1))), transform("$STRING_BUEN_DIA ale"));
+  it("Saludar a Ale a las 10 retorna 'Buenos días Ale'", function() {
+    assert.equal(transform(saludar("Ale", 10)), transform("buenos días ale"));
   });
   
-  it("Saludar a Agus a las " + Number($HORA_LIMITE) + " retorna 'Buenas tardes Agus'", function() {
-    assert.equal(transform($FUNCION("Agus", Number($HORA_LIMITE))), transform("buenas tardes agus"));
+  it("Saludar a Agus a las 12 retorna 'Buenas tardes Agus'", function() {
+    assert.equal(transform(saludar("Agus",12), transform("buenas tardes agus"));
   });
   
-  it("Saludar a Guille a las " + Number($HORA_MAYOR) + " retorna 'Buenas tardes Guille'", function() {
-    assert.equal(transform($FUNCION("Guille", Number($HORA_MAYOR))), transform("buenas tardes guille"));
+  it("Saludar a Guille a las 14 retorna 'Buenas tardes Guille'", function() {
+    assert.equal(transform(saludar("Guille", 14), transform("buenas tardes guille"));
   });
 })
