@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:$FUNCION
+  inspection: DeclaresFunction:concatenacionEsIgual
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity3:$FUNCION
+  inspection: DeclaresComputationWithArity3:concatenacionEsIgual
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$FUNCION"
+  binding: concatenacionEsIgual
   inspection: Not:Uses:If
