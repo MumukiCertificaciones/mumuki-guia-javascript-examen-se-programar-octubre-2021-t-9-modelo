@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:DibujarEscalera
+  inspection: DeclaresComputationWithArity1:DibujarMesa
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresProcedure:DibujarEscalera
+  inspection: DeclaresProcedure:DibujarMesa
