@@ -14,7 +14,7 @@ expectations:
   inspection: DeclaresComputationWithArity1:calentar_agua!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: AguaParaMate
-  inspection: DeclaresMethod:$METODO_VERIFICAR
+  inspection: DeclaresMethod:temperatura_exacta?
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$METODO_VERIFICAR"
+  binding: temperatura_exacta?
   inspection: Not:UsesIf
