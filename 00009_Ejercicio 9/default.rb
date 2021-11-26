@@ -1,4 +1,4 @@
-class $CLASE
+class Camion
   def initialize(muebles)
     @muebles = muebles
   end
@@ -10,7 +10,7 @@ class Colchon
   end
 end
 
-class $MUEBLE
+class Sillon
   def initialize(polvo)
     @nivel_de_polvo = polvo
   end
