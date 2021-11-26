@@ -1,4 +1,4 @@
-saludarfunction transform(texto) {
+function transform(texto) {
   return texto.toString().toLowerCase(texto).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
