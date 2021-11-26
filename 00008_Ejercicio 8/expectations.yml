@@ -1,8 +1,8 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$OBJETO"
-  inspection: DeclaresMethod:$METODO
+  binding: Biblioteca
+  inspection: DeclaresMethod:nombres_de_libros
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$METODO"
+  binding: nombres_de_libros
   inspection: Uses:map
