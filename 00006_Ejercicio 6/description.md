@@ -17,11 +17,11 @@ let lotusFlower = {
 Queremos definir una función que retorne un resumen de manera simple. Por ejemplo:
 
 ``` javascript
-ム $FUNCION(elGenioDeLaNada)
-"El genio de la nada $STRING_BANDA Eruca Sativa $STRING_DURACION 240 segundos"
+ム resumenCancion(elGenioDeLaNada)
+"El genio de la nada de la banda Eruca Sativa tiene una duración de 240 segundos"
 
-ム $FUNCION(lotusFlower)
-"Lotus flower $STRING_BANDA Radiohead $STRING_DURACION 300 segundos"
+ム resumenCancion(lotusFlower)
+"Lotus flower de la banda Radiohead tiene una duración de 300 segundos"
 ```
 
-> Definí la función `$FUNCION` que nos permita obtener el resumen solicitado.
+> Definí la función `resumenCancion` que nos permita obtener el resumen solicitado.

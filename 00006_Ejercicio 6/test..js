@@ -21,15 +21,15 @@ describe("", function() {
     duracion: 26
   }
 
-  it("el $FUNCION de elGenioDeLaNada nos provee su información", function() {
-    assert.equal(transform($FUNCION(elGenioDeLaNada)), transform("el genio de la nada $STRING_BANDA eruca sativa $STRING_DURACION 240 segundos"));
+  it("el resumenCancionresumenCancionde la banda de elGenioDeLaNada nos provee su información", function() {
+    assert.equal(transform(resumenCancion(elGenioDeLaNada)), transform("el genio de la nada de la banda eruca sativa tiene una duración de 240 segundos"));
   })
   
-  it("el $FUNCION de lotusFlower nos provee su información", function() {
-    assert.equal(transform($FUNCION(lotusFlower)), transform("lotus flower $STRING_BANDA radiohead $STRING_DURACION 300 segundos"));
+  it("el resumenCancion de lotusFlower nos provee su información", function() {
+    assert.equal(transform(resumenCancion(lotusFlower)), transform("lotus flower de la banda radiohead tiene una duración de 300 segundos"));
   })
   
-  it("el $FUNCION de shineOnYouCrazyDiamond nos provee su información", function() {
-    assert.equal(transform($FUNCION(shineOnYouCrazyDiamond)), transform("shine on you crazy diamond $STRING_BANDA pink floyd $STRING_DURACION 1560 segundos"));
+  it("el resumenCancion de shineOnYouCrazyDiamond nos provee su información", function() {
+    assert.equal(transform(resumenCancion(shineOnYouCrazyDiamond)), transform("shine on you crazy diamond de la banda pink floyd tiene una duración de 1560 segundos"));
   })
 })
