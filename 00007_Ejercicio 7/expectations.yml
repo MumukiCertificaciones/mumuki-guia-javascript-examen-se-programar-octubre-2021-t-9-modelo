@@ -2,18 +2,18 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:$CLASE
+  inspection: Declares:AguaParaMate
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE"
+  binding: AguaParaMate
   inspection: DeclaresMethod:temperatura
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE"
-  inspection: DeclaresMethod:$METODO_CALENTAR
+  binding: AguaParaMate
+  inspection: DeclaresMethod:calentar_agua!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE"
-  inspection: DeclaresComputationWithArity1:$METODO_CALENTAR
+  binding: AguaParaMate
+  inspection: DeclaresComputationWithArity1:calentar_agua!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "$CLASE"
+  binding: AguaParaMate
   inspection: DeclaresMethod:$METODO_VERIFICAR
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "$METODO_VERIFICAR"

@@ -1,9 +1,4 @@
 --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-METODO_CALENTAR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: one_of
-  value:
-  - calentar!
-  - calentar_agua!
 METODO_VERIFICAR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   type: one_of
   value:
@@ -20,8 +15,3 @@ TEMPERATURA_CORRECTA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   - '74'
   - '75'
   - '80'
-CLASE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  type: one_of
-  value:
-  - AguaParaMate
-  - AguaParaTomarMate
