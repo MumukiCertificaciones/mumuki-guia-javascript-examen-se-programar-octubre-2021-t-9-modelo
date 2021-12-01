@@ -1,3 +1,3 @@
 module Biblioteca
-  @libros = [Fundacion, Contacto,LaInsoportableLevedadDelSer, Socorro, ComoAguaParaChocolate]
+  @libros = [Fundacion, Contacto, LaInsoportableLevedadDelSer, Socorro, ComoAguaParaChocolate]
 end
