@@ -1,1 +1,1 @@
-Tené en cuenta que tenés que en los registros la duración de las canciones está en minutos pero el resumen está en segundos. :wink:
+Tené en cuenta que en los registros la duración de las canciones está en minutos pero en el resumen está en segundos. :wink:
