@@ -25,3 +25,7 @@ Queremos definir una función que retorne un resumen de manera simple. Por ejemp
 ```
 
 > Definí la función `resumenCancion` que nos permita obtener el resumen solicitado.
+
+En este video te dejamos una posible resolución a este ejercicio:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nx49Gxnrsmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

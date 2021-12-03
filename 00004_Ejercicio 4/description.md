@@ -14,3 +14,7 @@ Podríamos tener una función que dado un nombre y un horario retorne el saludo 
 ```
 
 > Definí la función `saludar`.
+
+En este video te dejamos una posible resolución a este ejercicio:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NkGfmiIVJJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
