@@ -21,7 +21,7 @@ describe("", function() {
     duracion: 26
   }
 
-  it("el resumenCancionresumenCancionde la banda de elGenioDeLaNada nos provee su información", function() {
+  it("el resumenCancion de elGenioDeLaNada nos provee su información", function() {
     assert.equal(transform(resumenCancion(elGenioDeLaNada)), transform("el genio de la nada de la banda eruca sativa tiene una duración de 240 segundos"));
   })
   
