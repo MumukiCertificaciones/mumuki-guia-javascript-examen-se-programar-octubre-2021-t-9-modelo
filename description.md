@@ -3,9 +3,3 @@ Este es un modelo de examen similar al que se utilizará en la certificación de
 En cada ejercicio podrás encontrar un video con una posible resolución. :movie_camera:
 
 Tené en cuenta que, al igual que en el examen, no se responderán consultas sobre los ejercicios de este modelo.
-
-<style>
-.mu-mono-dropdown {
-  display: none;
-}
-</style>
